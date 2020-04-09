@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/MainLinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/xfinity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/xfinity"
+        android:textColor="@color/colorPrimary"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/xfinityEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints="Xfinity"
+        android:hint="@string/please_enter_xfinity_cost"
+        android:inputType="numberDecimal"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/pge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pg_amp_e"
+        android:textColor="@color/colorPrimary"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/pgeEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:hint="@string/please_enter_pg_amp_e_cost"
+        android:inputType="numberDecimal"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/smud"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/smud"
+        android:textColor="@color/colorPrimary"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/smudEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:hint="@string/please_enter_smud_cost"
+        android:inputType="numberDecimal"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/groceries"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/groceries"
+        android:textColor="@color/colorPrimary"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/addlGroceriesEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:hint="@string/please_enter_additional_groceris_cost"
+        android:inputType="numberDecimal"
+        android:textSize="14sp" />
+
+
+    <LinearLayout
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/calculate"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/calculate" />
+
+
+    <Button
+        android:id="@+id/clear"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/clear" />
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/maeby"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/beautiful_dog"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/maeby_cropped" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

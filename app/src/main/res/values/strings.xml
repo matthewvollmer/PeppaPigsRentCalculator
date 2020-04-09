@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Peppa Pigs Rent Calculator</string>
+    <string name="peppapigs_rent_calculator">PeppaPigs Rent Calculator</string>
+    <string name="please_enter_xfinity_cost">Please Enter Xfinity Cost</string>
+    <string name="please_enter_pg_amp_e_cost"><![CDATA[Please Enter PG&E Cost]]></string>
+    <string name="please_enter_smud_cost">Please Enter SMUD Cost</string>
+    <string name="please_enter_additional_groceris_cost">Please Enter Taylors Additional Groceries</string>
+    <string name="calculate">Calculate</string>
+    <string name="calculate_me_bb">CALCULATE ME BB</string>
+    <string name="clear">Clear</string>
+    <string name="xfinity">Xfinity</string>
+    <string name="pg_amp_e"><![CDATA[PG&E]]></string>
+    <string name="smud">SMUD</string>
+    <string name="groceries">Groceries</string>
+    <string name="beautiful_dog">Beautiful_Dog</string>
+    <string name="taylor_plows_matt">Taylor Plows Matt:</string>
+    <string name="sam_poops_into_matt">Sam Poops Into Matt:</string>
+    <string name="start_over">Start Over</string>
+    <string name="send_messages">Send Messages</string>
+    <string name="enter_rent_message_text">Enter rent message text</string>
+</resources>
